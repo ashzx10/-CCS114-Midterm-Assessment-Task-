@@ -15,14 +15,6 @@ body {
     background:black;
 }
 
-.navbar-brand {
-    font-family: "Playfair Display", serif;
-    font-weight: 700;
-    font-size: 28px;
-    color: white;
-    letter-spacing: 1px;
-}       
-
 .navbar-nav {
     gap: 15px;
 }
