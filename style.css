@@ -28,6 +28,13 @@ body {
     line-height: 1;
     color: white;
     text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar-brand:active {
+    color: white;
 }
 
 .navbar-brand span:first-child {
