@@ -4,34 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Bataan Death March</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+
     <header>
+
         <nav class="navbar navbar-expand-lg fixed-top start-0 w-100">
+
             <div class="container-fluid px-5">
 
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="#home">
                     <span>Bataan</span>
                     <span>Death March</span>
                 </a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
 
                     <span class="navbar-toggler-icon"></span>
+
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarNav">
 
                     <div class="navbar-nav ms-auto">
 
-                        <a class="nav-link active" href="#">
+                        <a class="nav-link active" href="#home">
                             Home
                         </a>
 
@@ -54,15 +67,20 @@
                     </div>
 
                 </div>
+
             </div>
+
         </nav>
+
     </header>
+
     <main>
-        <section class="hero vh-100 position-relative">
 
-            <img src="images/hero.png" alt="Bataan Death March"
+        <section class="hero vh-100 position-relative" id="home">
+
+            <img src="images/hero.png"
+                alt="Bataan Death March"
                 class="hero-img position-absolute top-0 start-0 w-100 h-100">
-
 
             <div class="container h-100 position-relative">
 
@@ -84,11 +102,13 @@
 
                         <div class="mt-4">
 
-                            <a href="#history" class="btn btn-light btn-lg me-2">
+                            <a href="#about"
+                                class="btn btn-light btn-lg me-2">
                                 Explore History
                             </a>
 
-                            <a href="#timeline" class="btn btn-outline-light btn-lg">
+                            <a href="#timeline"
+                                class="btn btn-outline-light btn-lg">
                                 Timeline
                             </a>
 
@@ -102,12 +122,94 @@
 
         </section>
 
+        <section class="about min-vh-100 position-relative" id="about">
+
+            <div class="container h-100">
+
+                <div class="row min-vh-100 align-items-center g-5">
+
+                    <div class="col-md-6">
+
+                        <div class="about-content">
+
+                            <h2>
+                                ABOUT THE BATAAN DEATH MARCH
+                            </h2>
+
+                            <p>
+                                After the fall of Bataan on April 9, 1942,
+                                about 76,000 Filipino and American soldiers
+                                were ordered to march to a prison camp in
+                                Capas, Tarlac.
+                            </p>
+
+                            <p>
+                                The prisoners walked more than 100 kilometers
+                                under the brutal heat with little to no food
+                                and water.
+                            </p>
+
+                            <p>
+                                Thousands did not survive.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <img src="images/about.png"
+                            class="img-fluid about-img"
+                            alt="Historical image related to the Bataan Death March">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="timeline" class="py-5">
+
+            <div class="container">
+
+                <h2 class="text-center">
+                    HISTORICAL TIMELINE
+                </h2>
+
+            </div>
+
+        </section>
+
+        <section id="gallery" class="py-5">
+
+            <div class="container">
+
+                <h2 class="text-center">
+                    GALLERY
+                </h2>
+
+            </div>
+
+        </section>
+
+        <section id="legacy" class="py-5">
+
+            <div class="container">
+
+                <h2 class="text-center">
+                    LEGACY
+                </h2>
+
+            </div>
+
+        </section>
+
     </main>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
